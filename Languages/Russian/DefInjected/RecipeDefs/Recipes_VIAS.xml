@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<NECForgeSteel.label>Выплавить 10 единиц стали.</NECForgeSteel.label>
+<NECForgeSteel.description>Выплавить небольшое кол-во стали, используя железную руду и небольшое кол-во угля.</NECForgeSteel.description>
+<NECForgeSteel.jobString>Выплавляет небольшое кол-во стали.</NECForgeSteel.jobString>
+
+<NECForgeSteelBulk.label>Выплавить 100 единиц стали.</NECForgeSteelBulk.label>
+<NECForgeSteelBulk.description>Выплавить среднее кол-во стали, используя железную руду и небольшое кол-во угля.</NECForgeSteelBulk.description>
+<NECForgeSteelBulk.jobString>Выплавляет среднее кол-во стали.</NECForgeSteelBulk.jobString>
+
+<NECForgeSteelBulker.label>Выплавить 500 единиц стали.</NECForgeSteelBulker.label>
+<NECForgeSteelBulker.description>Выплавить большое кол-во стали, используя железную руду и небольшое кол-во угля.</NECForgeSteelBulker.description>
+<NECForgeSteelBulker.jobString>Выплавляет большое кол-во стали.</NECForgeSteelBulker.jobString>
+
+<NECForgeSteelMoreBulker.label>Выплавить 1000 единиц стали.</NECForgeSteelMoreBulker.label>
+<NECForgeSteelMoreBulker.description>Выплавить огромное кол-во стали, используя железную руду и небольшое кол-во угля.</NECForgeSteelMoreBulker.description>
+<NECForgeSteelMoreBulker.jobString>Выплавляет огромное кол-во стали.</NECForgeSteelMoreBulker.jobString>
+
+</LanguageData>

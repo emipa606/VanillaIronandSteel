@@ -37,4 +37,16 @@
 	  </operations>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="CoalSmelter"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="NECForgeSteel" or defName="NECForgeSteelBulk" or defName="NECForgeSteelBulker" or defName="NECForgeSteelMoreBulker"]/recipeUsers</xpath>
+      <value>
+    		<li>CoalSmelter</li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+    </nomatch>
+	</Operation>
+
 </Patch>	
