@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Vanilla steel and Minable steel changes -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MineableSteel"]/building/mineableThing</xpath>
+        <value>
+          <mineableThing>NECIron</mineableThing>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MineableSteel"]/label</xpath>
+        <value>
+          <label>iron ore</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MineableSteel"]/description</xpath>
+        <value>
+          <description>Solid rock with a shiny iron glint to it.</description>
+        </value>
+      </li>
+      <!-- Steel texture change moved to Patch_VFE -->
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Steel"]/deepLumpSizeRange | 
+          Defs/ThingDef[defName="Steel"]/deepCountPerPortion | 
+          Defs/ThingDef[defName="Steel"]/deepCommonality</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/WorkGiverDef[defName="DoBillsSmelter"]/fixedBillGiverDefs</xpath>
+        <value>
+          <li>NECBloomery</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- VFE - Medieval check -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]/stuffProps</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]</xpath>
+        <value>
+          <stuffProps>
+            <categories />
+          </stuffProps>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Medieval</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]/stuffProps/categories</xpath>
+          <value>
+            <li>VFEM_StoneChunks</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="NECBloomery"]/stuffCategories</xpath>
+          <value>
+            <stuffCategories>
+              <li>VFEM_StoneChunks</li>
+            </stuffCategories>
+          </value>
+        </li>
+      </operations>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]/stuffProps/categories</xpath>
+      <value>
+        <li>Chunks</li>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]/resourceReadoutPriority</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]/resourceReadoutPriority</xpath>
+      <value>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThingDef[@Name="ChunkRockBase"]</xpath>
+      <value>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="SimpleResearchBench"]/costList</xpath>
+  </Operation>
+</Patch>

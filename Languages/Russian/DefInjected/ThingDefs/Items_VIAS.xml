@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-<NECIron.label>железная руда</NECIron.label>
-<NECIron.description>Необработанное железо, которое можеть быть переплавлено в сталь. Железо мягкое и легко поддается коррозии, из-за чего практически не используется в сыром виде.</NECIron.description>
-<NECIron.stuffProps.stuffAdjective>железа</NECIron.stuffProps.stuffAdjective>
-
+  <NECIron.label>железная руда</NECIron.label>
+  <NECIron.description>Необработанное железо, которое можеть быть переплавлено в сталь. Железо мягкое и легко поддается коррозии, из-за чего практически не используется в сыром виде.</NECIron.description>
+  <NECIron.stuffProps.stuffAdjective>железа</NECIron.stuffProps.stuffAdjective>
 </LanguageData>

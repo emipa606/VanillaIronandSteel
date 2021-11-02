@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Metal+ -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/RecipeDef[defName="MakeSteelFromIron"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/*[self::RecipeDef[defName="MakeSteelFromIron"]]//thingDefs</xpath>
+        <value>
+          <li>NECIron</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Iron"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/*[self::RecipeDef[defName="NECForgeSteel"] or 
+					self::RecipeDef[defName="NECForgeSteelBulk"] or 
+					self::RecipeDef[defName="NECForgeSteelBulker"] or
+					self::RecipeDef[defName="NECForgeSteelMoreBulker"] or
+					self::ThingDef[defName="NECBloomery"]]//thingDefs[contains(li/text(), "NECIron")]</xpath>
+        <value>
+          <li>Iron</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="CoalSmelter"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="NECForgeSteel" or defName="NECForgeSteelBulk" or defName="NECForgeSteelBulker" or defName="NECForgeSteelMoreBulker"]/recipeUsers</xpath>
+      <value>
+        <li>CoalSmelter</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

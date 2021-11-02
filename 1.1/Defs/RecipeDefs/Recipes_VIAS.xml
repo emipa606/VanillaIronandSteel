@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>NECForgeSteel</defName>
+    <label>forge iron into steel</label>
+    <description>Forge iron ore into hardened workable steel with a little coal or charcoal.</description>
+    <jobString>Refining steel from iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>720</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NECIron</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NECIron</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>10</Steel>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>NECForgeSteelBulk</defName>
+    <label>forge 100 iron into steel</label>
+    <description>Forge lots of iron ore into hardened workable steel with a little coal or charcoal.</description>
+    <jobString>Refining bulk steel from iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NECIron</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NECIron</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>100</Steel>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>NECForgeSteelBulker</defName>
+    <label>forge 500 iron into steel</label>
+    <description>Forge a ton of iron ore into hardened workable steel with a little coal or charcoal.</description>
+    <jobString>Refining a ton of steel from iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>500</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NECIron</li>
+          </thingDefs>
+        </filter>
+        <count>500</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NECIron</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>500</Steel>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmithy</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>NECForgeSteelMoreBulker</defName>
+    <label>forge 1000 iron into steel</label>
+    <description>Forge a ton of iron ore into hardened workable steel with a little coal or charcoal.</description>
+    <jobString>Refining a ton of steel from iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>500</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NECIron</li>
+          </thingDefs>
+        </filter>
+        <count>1000</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NECIron</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Steel>1000</Steel>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
