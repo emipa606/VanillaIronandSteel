@@ -121,10 +121,6 @@ https://discord.gg/AvV7DT5]![Image](https://i.imgur.com/lkEpF5w.png)
 https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30]![Image](https://i.imgur.com/MD0xY84.png)
 
 
-**Like these mods? Support me so I can make more:**
-https://ko-fi.com/Q5Q019Y8A]![Image](https://i.imgur.com/EHcTTRx.png)
-
-
 *MIT License; Copyright (c) 2020 Billy J Barnes*
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
@@ -137,5 +133,6 @@ https://ko-fi.com/Q5Q019Y8A]![Image](https://i.imgur.com/EHcTTRx.png)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
