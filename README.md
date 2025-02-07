@@ -1,4 +1,4 @@
-# VanillaIronandSteel
+# [Vanilla Iron and Steel (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2644227855)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,7 +6,6 @@ Update of Neceross mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1883690422
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -19,7 +18,6 @@ Introduces iron ore while staying true to the vanilla Rimworld core values. Inst
 
 ![Image](https://i.imgur.com/iEtO930.png)
 
-
 This does increase the production time to get steel a little bit, but it's not as much as other mods have done previously. It won't be a huge burden on your production chain, and is mostly just an aesthetic change to the world.
 
 **It's highly advised to use this in a new save.** It will still work if you add it mid save, but deep drilling will be affected. Steel deposits will act weird, and will likely give 1 steel each digging.
@@ -31,7 +29,6 @@ If you uninstall the mod it will also work fine, and revert back perfectly. Be s
 Removed the steel requirement from the Research bench.
 
 ![Image](https://i.imgur.com/j6t7QaC.gif)
-
 
 
 # How to start
@@ -63,13 +60,13 @@ You require a coal mod for Vanilla Iron and Steel to function correctly. There's
 **You must use at least one of these, or you will get errors!** I prefer the ones near the top of the list:
 
 
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070]Coal Expanded (for transparency, I made this one too)
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1619943968]Simple Coal
-- https://steamcommunity.com/sharedfiles/filedetails/?id=732569232]Medieval Times
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1797397487]Apothecary
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1550854139]Survivalist's Additions
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1541903513]Atlas' Materials
-- https://steamcommunity.com/sharedfiles/filedetails/?id=1736127702]Clockwork and Steam
+- [Coal Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070) (for transparency, I made this one too)
+- [Simple Coal](https://steamcommunity.com/sharedfiles/filedetails/?id=1619943968)
+- [Medieval Times](https://steamcommunity.com/sharedfiles/filedetails/?id=732569232)
+- [Apothecary](https://steamcommunity.com/sharedfiles/filedetails/?id=1797397487)
+- [Survivalist's Additions](https://steamcommunity.com/sharedfiles/filedetails/?id=1550854139)
+- [Atlas' Materials](https://steamcommunity.com/sharedfiles/filedetails/?id=1541903513)
+- [Clockwork and Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1736127702)
 
 
 
@@ -94,7 +91,7 @@ Use any of the coal mods listed above (or any mod which introduces a def named "
 
 -  Vanilla Textures Expanded
 -  Vanilla Factions Expanded - Medieval
--  https://steamcommunity.com/sharedfiles/filedetails/?id=852103845]Extra Stone
+-  [Extra Stone](https://steamcommunity.com/sharedfiles/filedetails/?id=852103845)
 -  RIMkea (Load RIMkea before this mod)
 -  Metals+ (Load Metals+ before this mod)
 -  ZARS Production (Load ZARS before this mod)
@@ -104,22 +101,17 @@ Use any of the coal mods listed above (or any mod which introduces a def named "
 
 ![Image](https://i.imgur.com/JqbhBiR.png)
 
-
 ![Image](https://i.imgur.com/NpuFU7v.png)
-
 
 **Github:** https://github.com/Neceros/VanillaIronandSteel
 
 ![Image](https://i.imgur.com/s3KRLlu.gif)
 
-
 **Get help, Ask questions, Give suggestions:**
-https://discord.gg/AvV7DT5]![Image](https://i.imgur.com/lkEpF5w.png)
-
+[![Image](https://i.imgur.com/lkEpF5w.png)](https://discord.gg/AvV7DT5)
 
 **My mods:**
-https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30]![Image](https://i.imgur.com/MD0xY84.png)
-
+[![Image](https://i.imgur.com/MD0xY84.png)](https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30)
 
 *MIT License; Copyright (c) 2020 Billy J Barnes*
 
@@ -129,13 +121,12 @@ https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2644227855]![Image](https://img.shields.io/github/v/release/emipa606/VanillaIronandSteel?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/VanillaIronandSteel?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2644227855) | tags: iron,  steel,  ore

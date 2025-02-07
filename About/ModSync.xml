@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>cbd827db-a987-407c-a8fa-fd514b463ab6</ID>
   <ModName>Vanilla Iron and Steel (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.5.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
