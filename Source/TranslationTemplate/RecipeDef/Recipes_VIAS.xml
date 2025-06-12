@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: forge iron into steel -->
+  <NECForgeSteel.label>forge iron into steel</NECForgeSteel.label>
+  <!-- EN: Forge iron ore into hardened workable steel with a little coal or charcoal. -->
+  <NECForgeSteel.description>Forge iron ore into hardened workable steel with a little coal or charcoal.</NECForgeSteel.description>
+  <!-- EN: Refining steel from iron ore. -->
+  <NECForgeSteel.jobString>Refining steel from iron ore.</NECForgeSteel.jobString>
+  <!-- EN: forge 100 iron into steel -->
+  <NECForgeSteelBulk.label>forge 100 iron into steel</NECForgeSteelBulk.label>
+  <!-- EN: Forge lots of iron ore into hardened workable steel with a little coal or charcoal. -->
+  <NECForgeSteelBulk.description>Forge lots of iron ore into hardened workable steel with a little coal or charcoal.</NECForgeSteelBulk.description>
+  <!-- EN: Refining bulk steel from iron ore. -->
+  <NECForgeSteelBulk.jobString>Refining bulk steel from iron ore.</NECForgeSteelBulk.jobString>
+  <!-- EN: forge 500 iron into steel -->
+  <NECForgeSteelBulker.label>forge 500 iron into steel</NECForgeSteelBulker.label>
+  <!-- EN: Forge a ton of iron ore into hardened workable steel with a little coal or charcoal. -->
+  <NECForgeSteelBulker.description>Forge a ton of iron ore into hardened workable steel with a little coal or charcoal.</NECForgeSteelBulker.description>
+  <!-- EN: Refining a ton of steel from iron ore. -->
+  <NECForgeSteelBulker.jobString>Refining a ton of steel from iron ore.</NECForgeSteelBulker.jobString>
+  <!-- EN: forge 1000 iron into steel -->
+  <NECForgeSteelMoreBulker.label>forge 1000 iron into steel</NECForgeSteelMoreBulker.label>
+  <!-- EN: Forge a ton of iron ore into hardened workable steel with a little coal or charcoal. -->
+  <NECForgeSteelMoreBulker.description>Forge a ton of iron ore into hardened workable steel with a little coal or charcoal.</NECForgeSteelMoreBulker.description>
+  <!-- EN: Refining a ton of steel from iron ore. -->
+  <NECForgeSteelMoreBulker.jobString>Refining a ton of steel from iron ore.</NECForgeSteelMoreBulker.jobString>
+</LanguageData>

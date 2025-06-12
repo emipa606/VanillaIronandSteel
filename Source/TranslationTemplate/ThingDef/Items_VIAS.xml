@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: iron ore -->
+  <NECIron.label>iron ore</NECIron.label>
+  <!-- EN: Raw iron which must be forged with coal (or charcoal) into steel. Iron is soft and reacts to oxygen and corrodes easily. -->
+  <NECIron.description>Raw iron which must be forged with coal (or charcoal) into steel. Iron is soft and reacts to oxygen and corrodes easily.</NECIron.description>
+</LanguageData>
