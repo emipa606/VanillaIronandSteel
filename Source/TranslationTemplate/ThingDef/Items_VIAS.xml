@@ -4,4 +4,6 @@
   <NECIron.label>iron ore</NECIron.label>
   <!-- EN: Raw iron which must be forged with coal (or charcoal) into steel. Iron is soft and reacts to oxygen and corrodes easily. -->
   <NECIron.description>Raw iron which must be forged with coal (or charcoal) into steel. Iron is soft and reacts to oxygen and corrodes easily.</NECIron.description>
+  <!-- EN: iron -->
+  <NECIron.stuffProps.stuffAdjective>iron</NECIron.stuffProps.stuffAdjective>
 </LanguageData>

@@ -1,13 +1,13 @@
 # [Vanilla Iron and Steel (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2644227855)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Neceross mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1883690422
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 Introduces iron ore while staying true to the vanilla Rimworld core values. Instead of steel around your map, you will spawn with mineable iron ore! Forge the iron down in a bloomery or smithy along with some coal or charcoal, and turn it into the much better material: steel!
 
@@ -16,7 +16,7 @@ Introduces iron ore while staying true to the vanilla Rimworld core values. Inst
 *Please note 99% of my mods are MIT licensed, meaning you can do whatever you want with it with the requirement of crediting me.*
 
 
-![Image](https://i.imgur.com/iEtO930.png)
+![Image](https://img.litet.net/iEtO930.png)
 
 This does increase the production time to get steel a little bit, but it's not as much as other mods have done previously. It won't be a huge burden on your production chain, and is mostly just an aesthetic change to the world.
 
@@ -28,7 +28,7 @@ If you uninstall the mod it will also work fine, and revert back perfectly. Be s
 
 Removed the steel requirement from the Research bench.
 
-![Image](https://i.imgur.com/j6t7QaC.gif)
+![Image](https://img.litet.net/j6t7QaC.gif)
 
 
 # How to start
@@ -99,29 +99,29 @@ Use any of the coal mods listed above (or any mod which introduces a def named "
 
 
 
-![Image](https://i.imgur.com/JqbhBiR.png)
+![Image](https://img.litet.net/JqbhBiR.png)
 
-![Image](https://i.imgur.com/NpuFU7v.png)
+![Image](https://img.litet.net/NpuFU7v.png)
 
 **Github:** https://github.com/Neceros/VanillaIronandSteel
 
-![Image](https://i.imgur.com/s3KRLlu.gif)
+![Image](https://img.litet.net/logos/ImageNotFound.png)
 
 **Get help, Ask questions, Give suggestions:**
-[![Image](https://i.imgur.com/lkEpF5w.png)](https://discord.gg/AvV7DT5)
+[![Image](https://img.litet.net/lkEpF5w.png)](https://discord.gg/AvV7DT5)
 
 **My mods:**
-[![Image](https://i.imgur.com/MD0xY84.png)](https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30)
+[![Image](https://img.litet.net/MD0xY84.png)](https://steamcommunity.com/id/TheBigN/myworkshopfiles/?appid=294100&amp;p=1&amp;numperpage=30)
 
 *MIT License; Copyright (c) 2020 Billy J Barnes*
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -129,4 +129,4 @@ Use any of the coal mods listed above (or any mod which introduces a def named "
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/VanillaIronandSteel?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2644227855) | tags: iron,  steel,  ore
+[![Image](https://img.shields.io/github/v/release/emipa606/VanillaIronandSteel?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2644227855) | ore, iron, steel
